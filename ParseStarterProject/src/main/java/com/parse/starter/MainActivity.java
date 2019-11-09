@@ -9,7 +9,6 @@
 package com.parse.starter;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -20,6 +19,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.parse.LogInCallback;
 import com.parse.ParseAnalytics;
@@ -130,6 +131,9 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
       usernameText=(EditText) findViewById(R.id.usernameTextView);
       passwordText=(EditText) findViewById(R.id.passwordTextView);
       ImageView imageView=(ImageView) findViewById(R.id.imageView);
+      imageView.setAlpha(200);
+      TextView logoTextView=(TextView) findViewById(R.id.logoTextView);
+
       RelativeLayout backgroundLayout=(RelativeLayout) findViewById(R.id.backgroundLayout);
 
       imageView.setOnClickListener(this);

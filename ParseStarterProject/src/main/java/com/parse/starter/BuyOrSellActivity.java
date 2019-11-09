@@ -1,7 +1,6 @@
 package com.parse.starter;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -10,13 +9,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.parse.Parse;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.parse.ParseUser;
 
 public class BuyOrSellActivity extends AppCompatActivity {
     Intent intentListFood;
     Intent intentOrderFood;
   Intent intentLoginPage;
+  Intent intentMyProfile;
+    Intent intentMyListing;
     String currentUser;
     public void listFoodClicked(View view)
     {
@@ -53,6 +55,16 @@ public class BuyOrSellActivity extends AppCompatActivity {
 
         }
 
+        else if(item.getItemId()==R.id.myProfile){
+            startActivity(intentMyProfile);
+        }
+
+        else if(item.getItemId()==R.id.myListing){
+            startActivity(intentMyListing);
+        }
+
+
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -67,10 +79,13 @@ public class BuyOrSellActivity extends AppCompatActivity {
         intentListFood = new Intent(getApplicationContext(),ListFood.class);
         intentOrderFood = new Intent(getApplicationContext(),OrderFood.class);
       intentLoginPage = new Intent(getApplicationContext(),MainActivity.class);
+      intentMyProfile=new Intent(getApplicationContext(),MyProfile.class);
+        intentMyListing=new Intent(getApplicationContext(),MyListing.class);
 
        currentUser = getIntent().getStringExtra("Username");
-        Log.i("Current User",currentUser);
-
+       if(currentUser!=null) {
+           Log.i("Current User", currentUser);
+       }
 
 
 

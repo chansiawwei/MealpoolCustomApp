@@ -1,4 +1,4 @@
-#Mon Dec 24 12:39:46 AEDT 2018
+#Mon Nov 04 14:13:14 AEDT 2019
 base.0=C\:\\Users\\Chan Siaw Wei\\AndroidStudioProjects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex

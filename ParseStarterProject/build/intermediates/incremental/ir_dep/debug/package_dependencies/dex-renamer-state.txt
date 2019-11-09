@@ -1,7 +1,10 @@
-#Wed Dec 19 23:05:49 AEDT 2018
-base.0=C\:\\Users\\Chan Siaw Wei\\AndroidStudioProjects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+#Sat Nov 02 13:55:52 AEDT 2019
+path.2=classes3.dex
 path.1=classes2.dex
-renamed.1=classes2.dex
 path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.2=C\:\\Users\\Chan Siaw Wei\\AndroidStudioProjects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 base.1=C\:\\Users\\Chan Siaw Wei\\AndroidStudioProjects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+base.0=C\:\\Users\\Chan Siaw Wei\\AndroidStudioProjects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\10

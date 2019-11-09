@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:title="My Profile" android:id="@+id/myProfile" />
+    <item android:title="Check My Listing" android:id="@+id/myListing" />
+    <item android:title="Logout" android:id="@+id/logout" />
+
+
+</menu>

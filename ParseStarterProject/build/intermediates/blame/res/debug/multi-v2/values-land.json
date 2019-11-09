@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Chan Siaw Wei\\AndroidStudioProjects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Chan Siaw Wei\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-1.0.0-alpha5.aar\\4ae67e13c1cea209fa7b21cfb38bec6c\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "5,6,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "264,339,417",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "334,412,487"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Chan Siaw Wei\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0-alpha06.aar\\afefb9393c97caa794924e0b96dc4919\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,128,198,270,340",
+                        "endLines": "2,3,4,5,9",
+                        "endColumns": "72,69,71,69,10",
+                        "endOffsets": "123,193,265,335,507"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "492,565,635,707,777",
+                        "endLines": "8,9,10,11,15",
+                        "endColumns": "72,69,71,69,10",
+                        "endOffsets": "560,630,702,772,944"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Chan Siaw Wei\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\f30fad9a2ed62d2808e4ff79dba8d783\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}
